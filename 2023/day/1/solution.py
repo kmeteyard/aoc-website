@@ -1,14 +1,3 @@
----
-title: "2023: Day 1"
-date: 2023-12-1
-categories:
-  - python
-draft: false
----
-
-# Solution
-
-```{python}
 
 #data
 def get_lines():
@@ -55,4 +44,3 @@ values = [i[0] + i[len(i)-1] for i in digits]
 sum(int(i) for i in values)
 
 #54265
-```

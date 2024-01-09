@@ -5,7 +5,7 @@ subtitle: "Solutions and notes by Kieran Meteyard"
 code-tools: false
 ---
 
-I'm using this miji-site to host my solutions to the Advent of Code puzzles. [Advent of Code](https://adventofcode.com) is a series of increasingly difficult programming challenges, 
+I'm using this mini-site to host my solutions to the Advent of Code puzzles. [Advent of Code](https://adventofcode.com) is a series of increasingly difficult programming challenges, 
 released daily each year throughout December in the run-up to Christmas.
 
 To see my solutions and notes, just click on the corresponding year in the top navigation bar. I plan on slowly filling out past years when I get the time. Currently, most solutions are in Python.

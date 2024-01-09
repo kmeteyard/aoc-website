@@ -20,6 +20,8 @@ website:
     right:
       - icon: github
         href: https://github.com/kmeteyard/advent-of-code
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kieran-meteyard-532986a6/
   open-graph: true
 
 format:
