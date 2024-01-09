@@ -39,7 +39,7 @@
     "href": "2023.html",
     "title": "2023",
     "section": "",
-    "text": "Title\n\n\nCategories\n\n\n\n\n\n\n2023: Introduction\n\n\ndemo\n\n\n\n\n2023: Day 1\n\n\nMY_CATEGORY\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nCategories\n\n\n\n\n\n\n2023: Introduction\n\n\ndemo\n\n\n\n\n2023: Day 1\n\n\npython\n\n\n\n\n2023: Day 2\n\n\npython\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "fonts/LICENSE.html",
@@ -63,6 +63,13 @@
     "text": "Here’s a demo introduction page. It’s created from \"./_templates/YYYY-intro\" as part of the call to aoc_new_year(2023).\nIt can be deleted with a call to aoc_delete_intro(2023) (though there needs to be at least one post in ./2023/day for the website to render from Quarto v1.4).\nThis is a good place to note any overarching themes for the year, what you want to practice/learn, etc."
   },
   {
+    "objectID": "2023/day/2/index.html",
+    "href": "2023/day/2/index.html",
+    "title": "2023: Day 2",
+    "section": "",
+    "text": "Code\n#data\ndef get_lines():\n    with open('input.txt') as file:\n        return file.read().splitlines()\n    \nlines = get_lines()\n\ndef get_games(input):\n     \n     games = input.split(': ')[1].split('; ')\n\n     games = [i.split(', ') for i in games]\n\n     #flatten\n     return [item for row in games for item in row]\n\ndef test_game(input):\n\n    input = input.split(' ')\n\n    if input[1] == 'blue' and int(input[0]) &lt;= 14:\n        return True\n    elif input[1] == 'green' and int(input[0]) &lt;= 13:\n        return True\n    elif input[1] == 'red' and int(input[0]) &lt;= 12:\n        return True\n    else:\n        return False\n    \n#part 1\nvalue = 0\nfor i in range(len(lines)):\n    \n    games = get_games(lines[i])\n\n    if all([test_game(game) for game in games]):\n        value += i + 1\n\n#2149\n\n#part 2\n\n#find minimum red, green, blue \n\ndef find_minimum(games):\n\n    red = 0\n    green = 0\n    blue = 0\n\n    for i in games:\n        i = i.split(' ')\n\n        if i[1] == 'blue':\n            if int(i[0]) &gt; blue:\n                blue = int(i[0])\n        elif i[1] == 'green':\n            if int(i[0]) &gt; green:\n                green = int(i[0])\n        elif i[1] == 'red':\n            if int(i[0]) &gt; red:\n                red = int(i[0])\n    \n    return red*green*blue\n\nvalue = 0\nfor i in lines:\n    value += (find_minimum(get_games(i)))\n\n#71274"
+  },
+  {
     "objectID": "fonts/Readme.html",
     "href": "fonts/Readme.html",
     "title": "iA-Fonts",
@@ -74,7 +81,7 @@
     "href": "index.html",
     "title": "Advent of Code",
     "section": "",
-    "text": "I’m using this miji-site to host my solutions to the Advent of Code puzzles. Advent of Code is a series of increasingly difficult programming challenges, released daily each year throughout December in the run-up to Christmas.\nTo see my solutions and notes, just click on the corresponding year in the top navigation bar. I plan on slowly filling out past years when I get the time. Currently, most solutions are in Python.\nThis website is created from the EllaKaye/advent-of-code-website-template template repository. There’s documentation on how to use and adapt the template in the repo README."
+    "text": "I’m using this mini-site to host my solutions to the Advent of Code puzzles. Advent of Code is a series of increasingly difficult programming challenges, released daily each year throughout December in the run-up to Christmas.\nTo see my solutions and notes, just click on the corresponding year in the top navigation bar. I plan on slowly filling out past years when I get the time. Currently, most solutions are in Python.\nThis website is created from the EllaKaye/advent-of-code-website-template template repository. There’s documentation on how to use and adapt the template in the repo README."
   },
   {
     "objectID": "2022.html",
