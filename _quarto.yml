@@ -12,14 +12,14 @@ website:
   title: "Advent of Code"
   #site-url: https://github.com
   description: My solutions to Advent of Code
-  repo-url: https://github.com/EllaKaye/advent-of-code-website-template
+  repo-url: https://github.com/kmeteyard/advent-of-code
   navbar:
     left:
      - 2022.qmd
      - 2023.qmd
     right:
       - icon: github
-        href: https://github.com/EllaKaye/advent-of-code-website-template
+        href: https://github.com/kmeteyard/advent-of-code
   open-graph: true
 
 format:
