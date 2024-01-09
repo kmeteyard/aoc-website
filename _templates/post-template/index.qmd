@@ -1,0 +1,35 @@
+---
+title: "YYYY: Day DD"
+date: YYYY-12-DD
+categories:
+  - TAG_1
+  - TAG_2
+draft: false
+---
+
+## Setup
+
+[The original challenge](https://adventofcode.com/YYYY/day/DD)
+
+[My data](input){target="_blank"}
+
+## Part 1
+
+```{r}
+#| echo: false
+OK <- "YYYY" < 3000
+# Will only evaluate next code block if an actual year has been substituted for the placeholder
+```
+
+
+```{r}
+#| eval: !expr OK
+library(aochelpers)
+# other options: aoc_input_data_frame(), aoc_input_matrix()
+input <- aoc_input_vector(DD, YYYY)
+head(input)
+```
+
+## Part 2
+
+
