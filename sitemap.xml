@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/EllaKaye/advent-of-code-website-template/2022/day/1/index.html</loc>
-    <lastmod>2024-01-03T11:43:17.027Z</lastmod>
+    <loc>https://github.com/kmeteyard/aoc-website/2022/day/1/index.html</loc>
+    <lastmod>2024-01-09T13:56:31.154Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/EllaKaye/advent-of-code-website-template/2023.html</loc>
-    <lastmod>2024-01-03T11:43:16.131Z</lastmod>
+    <loc>https://github.com/kmeteyard/aoc-website/2023.html</loc>
+    <lastmod>2024-01-09T13:56:30.306Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/EllaKaye/advent-of-code-website-template/fonts/LICENSE.html</loc>
-    <lastmod>2024-01-03T11:43:15.547Z</lastmod>
+    <loc>https://github.com/kmeteyard/aoc-website/fonts/LICENSE.html</loc>
+    <lastmod>2024-01-09T13:56:29.686Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/EllaKaye/advent-of-code-website-template/2023/day/introduction/index.html</loc>
-    <lastmod>2024-01-03T11:43:14.347Z</lastmod>
+    <loc>https://github.com/kmeteyard/aoc-website/2023/day/1/index.html</loc>
+    <lastmod>2024-01-09T13:56:29.050Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/EllaKaye/advent-of-code-website-template/fonts/Readme.html</loc>
-    <lastmod>2024-01-03T11:43:15.195Z</lastmod>
+    <loc>https://github.com/kmeteyard/aoc-website/2023/day/introduction/index.html</loc>
+    <lastmod>2024-01-09T13:56:24.914Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/EllaKaye/advent-of-code-website-template/index.html</loc>
-    <lastmod>2024-01-03T11:43:15.835Z</lastmod>
+    <loc>https://github.com/kmeteyard/aoc-website/fonts/Readme.html</loc>
+    <lastmod>2024-01-09T13:56:29.338Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/EllaKaye/advent-of-code-website-template/2022.html</loc>
-    <lastmod>2024-01-03T11:43:16.455Z</lastmod>
+    <loc>https://github.com/kmeteyard/aoc-website/index.html</loc>
+    <lastmod>2024-01-09T13:56:29.966Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/kmeteyard/aoc-website/2022.html</loc>
+    <lastmod>2024-01-09T13:56:30.606Z</lastmod>
   </url>
 </urlset>
