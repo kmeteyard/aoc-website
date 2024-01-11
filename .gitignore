@@ -1,5 +1,6 @@
 .Rproj.user
 .Rhistory
+.Rprofile
 .RData
 .Ruserdata
 .Rdata
@@ -10,3 +11,4 @@
 /_site/
 
 /env/
+/renv/
