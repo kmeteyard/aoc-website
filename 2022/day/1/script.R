@@ -6,7 +6,7 @@ input <- as.numeric(input)
 # Part 1 ---------------------------------------------------------------------
 totals = c(0)
 current = 0
-for (i in aoc_input) {
+for (i in input) {
   if (is.na(i)) {
     totals = append(totals, current)
     current = 0
